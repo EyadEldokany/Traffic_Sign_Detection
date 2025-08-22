@@ -12,7 +12,7 @@ import cv2
 
 # ----- Paths & Config -----
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.getenv("MODEL_PATH", os.path.join(BASE_DIR, "traffic_sign_detection.pt"))
+MODEL_PATH = os.getenv("MODEL_PATH", os.path.join(BASE_DIR, "best.pt"))
 OUTPUT_DIR = os.getenv("OUTPUT_DIR", os.path.join(BASE_DIR, "outputs"))
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
